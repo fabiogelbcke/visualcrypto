@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C826F09317F99C530086F80B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C826F09217F99C530086F80B /* UIKit.framework */; };
+		C826F09517F99C530086F80B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C826F09417F99C530086F80B /* Foundation.framework */; };
+		C826F09717F99C530086F80B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C826F09617F99C530086F80B /* CoreGraphics.framework */; };
+		C826F09D17F99C530086F80B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C826F09B17F99C530086F80B /* InfoPlist.strings */; };
+		C826F09F17F99C530086F80B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C826F09E17F99C530086F80B /* main.m */; };
+		C826F0A317F99C530086F80B /* visualCryptoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C826F0A217F99C530086F80B /* visualCryptoAppDelegate.m */; };
+		C826F0A517F99C530086F80B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C826F0A417F99C530086F80B /* Default.png */; };
+		C826F0A717F99C530086F80B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C826F0A617F99C530086F80B /* Default@2x.png */; };
+		C826F0A917F99C530086F80B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C826F0A817F99C530086F80B /* Default-568h@2x.png */; };
+		C826F0AC17F99C530086F80B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C826F0AA17F99C530086F80B /* MainStoryboard.storyboard */; };
+		C826F0AF17F99C530086F80B /* visualCryptoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C826F0AE17F99C530086F80B /* visualCryptoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C826F08F17F99C530086F80B /* visualCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = visualCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C826F09217F99C530086F80B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C826F09417F99C530086F80B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C826F09617F99C530086F80B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C826F09A17F99C530086F80B /* visualCrypto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "visualCrypto-Info.plist"; sourceTree = "<group>"; };
+		C826F09C17F99C530086F80B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C826F09E17F99C530086F80B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C826F0A017F99C530086F80B /* visualCrypto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "visualCrypto-Prefix.pch"; sourceTree = "<group>"; };
+		C826F0A117F99C530086F80B /* visualCryptoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = visualCryptoAppDelegate.h; sourceTree = "<group>"; };
+		C826F0A217F99C530086F80B /* visualCryptoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = visualCryptoAppDelegate.m; sourceTree = "<group>"; };
+		C826F0A417F99C530086F80B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C826F0A617F99C530086F80B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C826F0A817F99C530086F80B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C826F0AB17F99C530086F80B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		C826F0AD17F99C530086F80B /* visualCryptoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = visualCryptoViewController.h; sourceTree = "<group>"; };
+		C826F0AE17F99C530086F80B /* visualCryptoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = visualCryptoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C826F08C17F99C530086F80B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C826F09317F99C530086F80B /* UIKit.framework in Frameworks */,
+				C826F09517F99C530086F80B /* Foundation.framework in Frameworks */,
+				C826F09717F99C530086F80B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C826F08617F99C530086F80B = {
+			isa = PBXGroup;
+			children = (
+				C826F09817F99C530086F80B /* visualCrypto */,
+				C826F09117F99C530086F80B /* Frameworks */,
+				C826F09017F99C530086F80B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C826F09017F99C530086F80B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C826F08F17F99C530086F80B /* visualCrypto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C826F09117F99C530086F80B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C826F09217F99C530086F80B /* UIKit.framework */,
+				C826F09417F99C530086F80B /* Foundation.framework */,
+				C826F09617F99C530086F80B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C826F09817F99C530086F80B /* visualCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				C826F0A117F99C530086F80B /* visualCryptoAppDelegate.h */,
+				C826F0A217F99C530086F80B /* visualCryptoAppDelegate.m */,
+				C826F0AA17F99C530086F80B /* MainStoryboard.storyboard */,
+				C826F0AD17F99C530086F80B /* visualCryptoViewController.h */,
+				C826F0AE17F99C530086F80B /* visualCryptoViewController.m */,
+				C826F09917F99C530086F80B /* Supporting Files */,
+			);
+			path = visualCrypto;
+			sourceTree = "<group>";
+		};
+		C826F09917F99C530086F80B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C826F09A17F99C530086F80B /* visualCrypto-Info.plist */,
+				C826F09B17F99C530086F80B /* InfoPlist.strings */,
+				C826F09E17F99C530086F80B /* main.m */,
+				C826F0A017F99C530086F80B /* visualCrypto-Prefix.pch */,
+				C826F0A417F99C530086F80B /* Default.png */,
+				C826F0A617F99C530086F80B /* Default@2x.png */,
+				C826F0A817F99C530086F80B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C826F08E17F99C530086F80B /* visualCrypto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C826F0B217F99C530086F80B /* Build configuration list for PBXNativeTarget "visualCrypto" */;
+			buildPhases = (
+				C826F08B17F99C530086F80B /* Sources */,
+				C826F08C17F99C530086F80B /* Frameworks */,
+				C826F08D17F99C530086F80B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = visualCrypto;
+			productName = visualCrypto;
+			productReference = C826F08F17F99C530086F80B /* visualCrypto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C826F08717F99C530086F80B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = visualCrypto;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fábio Gelbcke Work";
+			};
+			buildConfigurationList = C826F08A17F99C530086F80B /* Build configuration list for PBXProject "visualCrypto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C826F08617F99C530086F80B;
+			productRefGroup = C826F09017F99C530086F80B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C826F08E17F99C530086F80B /* visualCrypto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C826F08D17F99C530086F80B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C826F09D17F99C530086F80B /* InfoPlist.strings in Resources */,
+				C826F0A517F99C530086F80B /* Default.png in Resources */,
+				C826F0A717F99C530086F80B /* Default@2x.png in Resources */,
+				C826F0A917F99C530086F80B /* Default-568h@2x.png in Resources */,
+				C826F0AC17F99C530086F80B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C826F08B17F99C530086F80B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C826F09F17F99C530086F80B /* main.m in Sources */,
+				C826F0A317F99C530086F80B /* visualCryptoAppDelegate.m in Sources */,
+				C826F0AF17F99C530086F80B /* visualCryptoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C826F09B17F99C530086F80B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C826F09C17F99C530086F80B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C826F0AA17F99C530086F80B /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C826F0AB17F99C530086F80B /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C826F0B017F99C530086F80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C826F0B117F99C530086F80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C826F0B317F99C530086F80B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "visualCrypto/visualCrypto-Prefix.pch";
+				INFOPLIST_FILE = "visualCrypto/visualCrypto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C826F0B417F99C530086F80B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "visualCrypto/visualCrypto-Prefix.pch";
+				INFOPLIST_FILE = "visualCrypto/visualCrypto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C826F08A17F99C530086F80B /* Build configuration list for PBXProject "visualCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C826F0B017F99C530086F80B /* Debug */,
+				C826F0B117F99C530086F80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C826F0B217F99C530086F80B /* Build configuration list for PBXNativeTarget "visualCrypto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C826F0B317F99C530086F80B /* Debug */,
+				C826F0B417F99C530086F80B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C826F08717F99C530086F80B /* Project object */;
+}
